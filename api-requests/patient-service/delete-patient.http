@@ -1,0 +1,5 @@
+### GET request to example server
+DELETE http://localhost:4000/patients/8cd1a174-7998-441b-96cd-ad5a55b470e8
+Content-Type: application/json
+
+###

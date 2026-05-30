@@ -1,0 +1,54 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Spring Boot ###
+spring-boot-devtools.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Database ###
+*.db
+*.mv.db
+*.trace.db
+
+### Logs ###
+*.log
+logs/
+
+### Temporary Files ###
+*.tmp
+*.bak
+*.swp
+*~

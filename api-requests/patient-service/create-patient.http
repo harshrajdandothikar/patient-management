@@ -1,0 +1,13 @@
+### Creates a new patient
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "akhilesh yadav",
+  "email": "akhilesh_billing_acc@email.com",
+  "address": "bihar",
+  "dateOfBirth": "2003-01-20",
+  "registerDate": "2022-02-12"
+}
+
+###
