@@ -15,7 +15,7 @@ import java.util.Map;
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
-    private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
+    public static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     // @ExceptionHandler tells Spring: "when a MethodArgumentNotValidException is thrown
     // anywhere in the app, run this method instead of returning a generic 500 error"
